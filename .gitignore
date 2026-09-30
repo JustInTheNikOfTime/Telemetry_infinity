@@ -1,0 +1,25 @@
+# ---- Freebuff app internals (never commit) ----
+.freebuff/
+
+# ---- Older sensor-fusion project sharing this workspace (not part of the rocket repo) ----
+cross_fusion/
+nav_fusion/
+shm_fusion/
+dashboard/
+results/
+run_all.py
+requirements.txt
+METHODS.md
+
+# ---- OS junk ----
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- Python ----
+__pycache__/
+*.pyc
+
+# ---- Build artifacts ----
+.pio/
+build/
